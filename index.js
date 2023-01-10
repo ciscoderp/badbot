@@ -21,6 +21,4 @@ client.on("interactionCreate", (i) => {
   }
 });
 
-client.login(
-  "MTA2MjE4MjAwNzgxMzE5Nzg4NQ.G9IVGa.47nykhCTXZk7RZzvuAu2T1k-1i1_4-86QZVc9w"
-);
+client.login(process.env.TOKEN);
